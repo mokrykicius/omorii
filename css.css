@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+#głowny {
+    justify-content: center;
+}
+#podgłowny {
+    display: flex; 
+    gap: 60px; 
+    justify-content: center;
+  
+}
+
+#podgłowny h2 {
+    color: white; 
+    cursor: pointer; 
+    transition: color 0.7s ease; 
+}
+
+#podgłowny h2:hover {
+    color: red !important; 
+}
+
+
+
+@font-face {
+    font-family: 'Omori';
+    src: url('OMORI_GAME2.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+   
+}
+* {
+    font-family: 'Omori';
+    font-size: 120%;
+}
+#fabuła {
+    height: 800px;
+    width: 100%;
+    color:white;
+    background-color: rgb(0, 0, 0);
+    float: right;
+}
+#fabuła img {
+    width: 500px; 
+    height: 300px; 
+    justify-content: center;
+}
+#postac-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#postac-images img {
+    width: 100px; 
+    height: 100px; 
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+#postac-images img#sunny:hover {
+    content: url('omori.png'); 
+}
+
+#postac-images img#mari:hover {
+    content: url('hsmari.png');
+}
+
+#postac-images img#basil:hover {
+    content: url('hsbasil.png');
+}
+
+#postac-images img#aubrey:hover {
+    content: url('hcaubrey.png');
+}
+
+#postac-images img#hero:hover {
+    content: url('hshero.png');
+}
+
+#postac-images img#kel:hover {
+    content: url('hskel.png');
+}
