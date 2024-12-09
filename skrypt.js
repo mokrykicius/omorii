@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function showMessage(id){
     const messages = document.querySelectorAll('.message');
     messages.forEach(message => message.style.display = 'none');
-    const selectedMessage =document.GetElementById(id);
+    const selectedMessage =document.GetElementById(postacie);
     if (selectedMessage) {
         SelectedMessage.style.display = 'block';
     }
@@ -35,7 +35,7 @@ function showMessage(id){
               ,naprawde dobrego sluchacza", ktoremu nie przeszkadza sluchanie, jak sie wyzalaja. Hero rowniez stwierdza, ze Sunny ma swietna pamiec. <br>
             Pomimo bycia cichym, Sunny latwo sie wscieka, od drobnych frustracji, takich jak HOUSEFLIES w OTHERMART, po znacznie powazniejsze rzeczy,  <br>
             takie jak jego uraza do skrzypiec. Ta narastajaca uraza ostatecznie prowadzi do tego, ze rzuca skrzypce ze schodow, co powoduje jego i Mari ostateczna klotnie.</p>`);
-            <button class="wroc" onclick="showMessage('kluby')">wroc </button>
+          
         });
 
         document.getElementById('mari').addEventListener('click', function() {
